@@ -1,0 +1,59 @@
+.employee-details-container {
+  background: #ffffff;
+  box-shadow: -1px 2px 4px 2px rgba(234, 201, 81, 0.5);
+  border-radius: 8px;
+  padding: 20px;
+  height: 271px;
+  width: 264px;
+  margin-top: 40px;
+  margin-left: 35px;
+  text-align: center;
+}
+.name {
+  font-family: 'roboto';
+  font-weight: 600;
+}
+.image {
+  width: 55px;
+  height: 55px;
+  border-radius: 8px;
+}
+.applicant {
+  background: #ffffff;
+  box-shadow: -1px 2px 4px 2px rgba(234, 201, 81, 0.5);
+  border-radius: 8px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.gmail {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  color: #4f4f4f;
+}
+.role {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  color: #4f4f4f;
+}
+.mobile {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  color: #4f4f4f;
+}
+.button {
+  background: #ffdb58;
+  border: 1px solid #ffdb58;
+  box-sizing: border-box;
+  border-radius: 3px;
+  height: 30px;
+  width: 90px;
+}
