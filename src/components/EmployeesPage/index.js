@@ -102,33 +102,33 @@ class Employees extends Component {
     return (
       <div className="main-container">
         <div className="sidebar">
-          <h1 className="EOF">EOF</h1>
+          <h1 className="EOC">EOC</h1>
           <div className="container-flex">
             <BsColumnsGap className="dashboard-icon" fill="white" size="23" />
             <span className="dashboard">Dashboard</span>
           </div>
-          <div className="container-flex">
+          <div className="container-flex-employee">
             <FiUsers className="employee-icon" color="black" size="20" />
             <span className="employees">Employees</span>
           </div>
           <div className="container-flex">
-            <BiDoorOpen className="stages-icon" size="23" color="white" />
+            <svg
+              width="20"
+              height="19"
+              viewBox="0 0 16 9"
+              fill="none"
+              color="white"
+              xmlns="http://www.w3.org/2000/svg"
+              className="stages-icon"
+            >
+              <path
+                d="M1.7876 1.17554L8.23589 7.62383L14.6842 1.17554"
+                stroke="white"
+              />
+            </svg>
+            <BiSliderAlt className="stages-icon-2" size="28" color="white" />
             <span className="stages">Stages</span>
           </div>
-          <svg
-            width="16"
-            height="10"
-            viewBox="0 0 16 10"
-            fill="white"
-            size="25"
-            xmlns="http://www.w3.org/2000/svg"
-            className="slide-arrow"
-          >
-            <path
-              d="M1.77295 1.72192L8.36036 8.30933L14.9478 1.72192"
-              stroke="white"
-            />
-          </svg>
 
           <div className="container-flex">
             <ImMan className="welcome-stages-icon" color="white" size="23" />
@@ -169,7 +169,7 @@ class Employees extends Component {
             <span className="feedback">Feedback</span>
           </div>
           <div className="container-flex">
-            <ImFileText2 className="background-icon" color="white" size="22" />
+            <BiNews className="background-icon" size="22" color="white" />
             <span className="background">Background Check</span>
           </div>
           <div className="container-flex">
@@ -187,7 +187,35 @@ class Employees extends Component {
             <div className="nav-items">
               <input type="search" className="searchBar" placeholder="Search" />
               <BsFillBellFill className="bell-icon" size="28" />
+              <svg
+                width="13"
+                height="12"
+                viewBox="0 0 16 15"
+                fill="none"
+                className="blue-dot-1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.0312 7.63574C15.0312 3.6394 11.78 0.399658 7.76919 0.399658C3.75843 0.399658 0.506958 3.6394 0.506958 7.63574C0.506958 11.6321 3.75843 14.8718 7.76919 14.8718C11.78 14.8718 15.0312 11.6321 15.0312 7.63574Z"
+                  fill="#6FCF97"
+                />
+              </svg>
+
               <BsFillChatDotsFill className="chat-icon" size="28" />
+              <svg
+                width="13"
+                height="12"
+                viewBox="0 0 16 15"
+                fill="none"
+                className="blue-dot-2"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.0312 7.63574C15.0312 3.6394 11.78 0.399658 7.76919 0.399658C3.75843 0.399658 0.506958 3.6394 0.506958 7.63574C0.506958 11.6321 3.75843 14.8718 7.76919 14.8718C11.78 14.8718 15.0312 11.6321 15.0312 7.63574Z"
+                  fill="#6FCF97"
+                />
+              </svg>
+
               <svg
                 width="20"
                 height="19"

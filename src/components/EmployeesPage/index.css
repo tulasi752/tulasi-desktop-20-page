@@ -1,8 +1,6 @@
 .main-container {
   height: 100vh;
-  padding: 10px;
   display: flex;
-  align-items: center;
   flex-direction: row;
 }
 .sidebar {
@@ -14,13 +12,13 @@
   background: #2a2515;
   border-radius: 0px 10px 10px 0px;
 }
-.EOF {
+.EOC {
   position: absolute;
   width: 41px;
   height: 30px;
   left: 40.5px;
   top: 39.91px;
-  font-family: 'Roboto';
+  font-style: 'Monospace';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -32,7 +30,7 @@
 .employees-container {
   background-color: white;
   height: 100vh;
-  width: 1158.8px;
+  width: 108.8px;
 }
 .navbar-container {
   position: absolute;
@@ -144,14 +142,13 @@
 }
 .dashboard {
   position: absolute;
-  left: 18.13%;
+  left: 25.13%;
   right: 90.62%;
   top: 14.16%;
   bottom: 83.5%;
-  font-family: 'Roboto';
-  font-style: normal;
+  font-style: 'Trebuchet';
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   color: #ffffff;
 }
@@ -168,46 +165,59 @@
   flex-direction: row;
 }
 
-.employee-icon {
-  position: absolute;
-  width: 239.1px;
-  height: 50.38px;
-  left: 6px;
-  top: 20%;
-}
 .employees {
   position: absolute;
-  width: 239.1px;
-  height: 50.38px;
-  z-index: 1;
-  left: 5px;
-  top: 230px;
-  background: rgba(255, 219, 88, 0.9);
-  border-radius: 5px;
-  font-family: 'Roboto';
-  font-style: normal;
+  left: 18.48%;
+  right: 9.48%;
+  top: 3.69%;
+  font-family: 'Helvetica';
   font-weight: 600;
   font-size: 16px;
   padding: 15px;
   line-height: 24px;
   color: #2a2515;
 }
+.blue-dot-1 {
+  position: absolute;
+  left: 81.58%;
+  right: 14.51%;
+  top: 28.82%;
+  bottom: 93.76%;
+  border-radius: 50px;
+  background: #6fcf97;
+}
+.blue-dot-2 {
+  position: absolute;
+  left: 86.58%;
+  right: 14.51%;
+  top: 28.82%;
+  bottom: 93.76%;
+  border-radius: 50px;
+  background: #6fcf97;
+}
 .stages {
   position: absolute;
-  left: 22.06%;
+  left: 25.06%;
   right: 93.12%;
   top: 28.61%;
   bottom: 69.04%;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: #ffffff;
 }
 .stages-icon {
   position: absolute;
-  left: 10.06%;
+  left: 74.06%;
+  right: 93.12%;
+  top: 28.61%;
+  bottom: 69.04%;
+}
+.stages-icon-2 {
+  position: absolute;
+  left: 4.06%;
   right: 93.12%;
   top: 28.61%;
   bottom: 69.04%;
@@ -466,7 +476,7 @@
 .employees-wrap-container {
   display: flex;
   flex-direction: row;
-  margin-left: 250px;
+  margin-left: 265px;
   flex-wrap: wrap;
   margin-top: 250px;
   width: 1300px;
@@ -501,4 +511,22 @@
   position: absolute;
   left: 10%;
   top: 21%;
+}
+.container-flex-employee {
+  position: absolute;
+  width: 239.1px;
+  height: 50.38px;
+  z-index: 1;
+  left: 5px;
+  top: 230px;
+  background: rgba(255, 219, 88, 0.9);
+  border-radius: 5px;
+}
+.employee-icon {
+  position: absolute;
+  left: 7.48%;
+  right: 9.48%;
+  top: 25.69%;
+  bottom: 0%;
+  order: 0;
 }
