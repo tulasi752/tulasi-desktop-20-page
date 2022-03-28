@@ -12,7 +12,7 @@
   background: #2a2515;
   border-radius: 0px 10px 10px 0px;
 }
-.EOC {
+.EOA {
   position: absolute;
   width: 41px;
   height: 30px;
@@ -195,9 +195,16 @@
   border-radius: 50px;
   background: #6fcf97;
 }
+.square-icon {
+  position: absolute;
+  left: 13%;
+  right: 0%;
+  top: 25%;
+  bottom: 0%;
+}
 .stages {
   position: absolute;
-  left: 25.06%;
+  left: 22.06%;
   right: 93.12%;
   top: 28.61%;
   bottom: 69.04%;
@@ -215,13 +222,50 @@
   top: 28.61%;
   bottom: 69.04%;
 }
-.stages-icon-2 {
+.first-stage {
   position: absolute;
-  left: 4.06%;
+  left: 7.06%;
   right: 93.12%;
-  top: 28.61%;
+  top: 29.8%;
+
   bottom: 69.04%;
 }
+.second-stage {
+  position: absolute;
+  left: 7.06%;
+  right: 93.12%;
+  top: 29.1%;
+  bottom: 69.04%;
+}
+.third-stage {
+  position: absolute;
+  left: 7.06%;
+  right: 93.12%;
+  top: 28.5%;
+  bottom: 69.04%;
+}
+.one {
+  position: absolute;
+  left: 7.8%;
+  right: 82.46%;
+  top: 28.67%;
+  bottom: 77.2%;
+}
+.two {
+  position: absolute;
+  left: 12.3%;
+  right: 11.04%;
+  top: 29.3%;
+  bottom: 42.89%;
+}
+.three {
+  position: absolute;
+  left: 7.62%;
+  right: 78.71%;
+  top: 29.9%;
+  bottom: 8.62%;
+}
+
 .welcome-stages {
   position: absolute;
   left: 22.01%;
@@ -239,6 +283,21 @@
   left: 12.01%;
   top: 33.79%;
   bottom: 64.21%;
+}
+.welcome-stages-icon-2 {
+  position: absolute;
+  left: 14.59%;
+  right: 97.01%;
+  top: 34.4%;
+  bottom: 64.88%;
+}
+.offer-letter-lock-icon {
+  position: absolute;
+  left: 14%;
+  right: 96.7%;
+  top: 40.5%;
+  bottom: 58.36%;
+  size: '30';
 }
 .slide-arrow {
   position: absolute;
@@ -266,6 +325,24 @@
   top: 39.96%;
   bottom: 58.04%;
 }
+.offer-letter-icon-1 {
+  position: absolute;
+  left: 12%;
+  top: 39.96%;
+  bottom: 58.04%;
+}
+.offer-letter-icon-2 {
+  position: absolute;
+  left: 12%;
+  top: 20%;
+  bottom: 58.04%;
+}
+.offer-letter-icon-3 {
+  position: absolute;
+  left: 12%;
+  top: 41%;
+  bottom: 58.04%;
+}
 .skill-matrix {
   position: absolute;
   left: 22.01%;
@@ -281,7 +358,25 @@
 .skill-matrix-icon {
   position: absolute;
   left: 12.01%;
-  top: 46.12%;
+  top: 46.32%;
+  bottom: 51.88%;
+}
+.skill-matrix-icon-2 {
+  position: absolute;
+  left: 12.5%;
+  top: 46.2%;
+  bottom: 51.88%;
+}
+.skill-matrix-icon-3 {
+  position: absolute;
+  left: 12.9%;
+  top: 46.4%;
+  bottom: 51.88%;
+}
+.skill-matrix-icon-4 {
+  position: absolute;
+  left: 12.8%;
+  top: 46%;
   bottom: 51.88%;
 }
 .know-your-company {
@@ -354,6 +449,24 @@
   position: absolute;
   left: 11.66%;
   top: 64.62%;
+  bottom: 33.38%;
+}
+.feedback-icon-2 {
+  position: absolute;
+  left: 11.66%;
+  top: 64.42%;
+  bottom: 33.38%;
+}
+.feedback-icon-3 {
+  position: absolute;
+  left: 12.7%;
+  top: 64.8%;
+  bottom: 33.38%;
+}
+.feedback-icon-4 {
+  position: absolute;
+  left: 13.5%;
+  top: 64.7%;
   bottom: 33.38%;
 }
 .settings {
@@ -509,8 +622,8 @@
 }
 .slider-icon {
   position: absolute;
-  left: 10%;
-  top: 21%;
+  left: 13%;
+  top: 23.5%;
 }
 .container-flex-employee {
   position: absolute;
